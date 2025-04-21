@@ -1,0 +1,92 @@
+===============================
+     DSA Mastery Roadmap
+===============================
+
+1. BASICS
+   - Time and Space Complexity
+   - Big O, Omega, Theta Notation
+   - Recursion (including tail recursion)
+
+2. ARRAYS & STRINGS
+   - Basic operations (insert, delete, search)
+   - Sliding Window
+   - Two Pointers
+   - Prefix Sum
+   - Kadane’s Algorithm
+
+3. LINKED LISTS
+   - Singly, Doubly, Circular
+   - Fast & Slow Pointer techniques
+   - Reverse a Linked List
+   - Detect & remove cycle
+
+4. STACKS & QUEUES
+   - Stack implementation
+   - Queue and Circular Queue
+   - Deque
+   - Infix → Postfix/Prefix
+   - Next Greater/Smaller Element
+
+5. HASHING
+   - Hash Tables/Maps
+   - Hash Sets
+   - Frequency Counting
+   - Anagram Problems
+
+6. TREES
+   - Binary Tree
+   - Binary Search Tree (BST)
+   - Tree Traversals (Inorder, Preorder, Postorder)
+   - Lowest Common Ancestor
+   - Diameter, Height
+   - Balanced Trees (AVL/Red-Black basics)
+
+7. HEAPS / PRIORITY QUEUE
+   - Max-Heap & Min-Heap
+   - Heapify
+   - K largest/smallest elements
+   - Priority Queue usage
+
+8. TRIES
+   - Implement Trie
+   - Word Search
+   - Prefix-based queries
+
+9. GRAPHS
+   - Representations (Adjacency List/Matrix)
+   - BFS and DFS
+   - Topological Sort
+   - Dijkstra’s Algorithm
+   - Prim’s and Kruskal’s Algorithm
+   - Union Find (Disjoint Set)
+
+10. GREEDY ALGORITHMS
+    - Activity Selection
+    - Huffman Encoding
+    - Fractional Knapsack
+
+11. BACKTRACKING
+    - N-Queens
+    - Sudoku Solver
+    - Subsets/Permutations
+
+12. DYNAMIC PROGRAMMING
+    - 0/1 Knapsack
+    - Longest Common Subsequence
+    - Longest Increasing Subsequence
+    - Matrix Chain Multiplication
+    - DP on Trees
+    - DP on Subsets/Partitions
+
+13. BIT MANIPULATION
+    - XOR properties
+    - Set/Clear/Toggle Bits
+    - Bit Masking
+
+14. SLIDING WINDOW & TWO POINTER TECHNIQUES (Advanced)
+
+15. SEGMENT TREE & BINARY INDEXED TREE (FENWICK TREE)
+
+===============================
+         Let’s Master DSA!
+===============================
