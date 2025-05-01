@@ -17,7 +17,7 @@ class ProrityQueue {
     }
 
     public boolean isFull() {
-        return front == 0 && rear == capacity - 1;
+        return rear == capacity - 1;
     }
 
     public void enqueue(int value) {
@@ -87,7 +87,7 @@ public class ProrityQueueUsingArray {
             System.out.println("2. Dequeue");
             System.out.println("3. Peek");
             System.out.println("4. Display");
-            System.out.println("5. Exit");
+            System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             choice = input.nextInt();
 
