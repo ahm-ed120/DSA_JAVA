@@ -10,7 +10,7 @@ class Queue {
     }
 
     public boolean isFull() {
-        return front == 0 && rear == capacity - 1;
+        return rear == capacity - 1;
     }
 
     public boolean isEmpty() {
@@ -22,10 +22,11 @@ class Queue {
             System.out.println("Queue is full.");
             return;
         }
-        if (front == -1) {
-            front = 0;
+        if (front == -1 && rear == -1) {
+            front = rear = 0;
+        } else {
+            rear += 1;
         }
-        rear += 1;
         queue[rear] = value;
     }
 

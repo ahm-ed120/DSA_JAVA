@@ -34,6 +34,8 @@ class ProrityQueue {
             for (i = rear; i >= front; i--) {
                 if (value > queue[rear]) {
                     queue[i + 1] = queue[i];
+                } else {
+                    break;
                 }
             }
             queue[i + 1] = value;
