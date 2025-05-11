@@ -1,5 +1,5 @@
 public class BubbleSort {
-    private static void sort(int[] arr) {
+    public static void sort(int[] arr) {
         int size = arr.length;
         int temp;
 
@@ -15,20 +15,18 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
         System.out.println("Unsorted array");
         for (int i : arr) {
             System.out.print(i + " ");
         }
         System.out.println();
 
-        sort(arr);
-
-        System.out.println("Sorted array");
+        BubbleSort.sort(arr);
+        System.out.println("Sorted array by Bubble Sort");
         for (int i : arr) {
             System.out.print(i + " ");
         }
-
+        System.out.println();
     }
-
 }
