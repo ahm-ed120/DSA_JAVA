@@ -72,13 +72,13 @@ public class InfixToPostfix {
                 }
                 stack.pop();
             } else if (isOperator(ch)) {
-                while (!stack.isEmpty() && precedence(ch) <= precedence(stack.peek())) {
+                while (!stack.isEmpty() && ((ch != '^' && precedence(ch) <= precedence(stack.peek())) || (ch == '^' && precedence(ch) < precedence(stack.peek())))) {
                     postfix += stack.pop();
                 }
                 stack.push(ch);
             }
         }
-        
+
         while (!stack.isEmpty()) {
             postfix += stack.pop();
         }
@@ -88,7 +88,7 @@ public class InfixToPostfix {
     }
 
     public static void main(String[] args) {
-        String infix = "a+b*(c^d-e)^(f+g*h)-i";
+        String infix = "a^b*c-d/f^e^g+h*n";
         String postfix = infixToPostfix(infix);
         System.out.println("Infix Expression: " + infix);
         System.out.println("Postfix Expression: " + postfix);
