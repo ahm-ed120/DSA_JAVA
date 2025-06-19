@@ -61,8 +61,9 @@ class List {
         if (current != null) {
             newNode.next = current.next;
             newNode.prev = current;
-            if (current.next != null) {
-                current.next.prev = newNode;
+            current.next = newNode;
+            if (newNode.next != null) {
+                newNode.next.prev = newNode;
             } else {
                 tail = newNode;
             }
