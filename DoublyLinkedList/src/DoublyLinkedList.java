@@ -61,12 +61,12 @@ class List {
         if (current != null) {
             newNode.next = current.next;
             newNode.prev = current;
-            current.next = newNode;
-            if (newNode.next != null) {
-                newNode.next.prev = newNode;
+            if (current.next != null) {
+                current.next.prev = newNode;
             } else {
                 tail = newNode;
             }
+            current.next = newNode;
         } else {
             System.out.println("Node with value " + key + " not found.");
         }
